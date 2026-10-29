@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Mohammed Jemal</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>I welcome questions, feedback, and opportunities to connect.</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="skills.html">Skills &amp; Education</a> |
+            <a href="projects.html">Projects &amp; Achievements</a> |
+            <a href="media.html">My Media &amp; Interests</a> |
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Send Me a Message</h2>
+            <form action="#" method="post">
+                
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name *:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email Address *:</label><br>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+                    
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX">
+                    </p>
+                    
+                    <p>
+                        <label for="website">Your Website / Profile URL:</label><br>
+                        <input type="url" id="website" name="website" placeholder="https://example.com">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+                    
+                    <p>
+                        <label for="subject">Subject *:</label><br>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Select a subject --</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="collaboration">Project Collaboration</option>
+                            <option value="feedback">Website Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label>How did you find my website?</label><br>
+                        <input type="radio" id="source-search" name="source" value="search">
+                        <label for="source-search">Search Engine</label><br>
+                        
+                        <input type="radio" id="source-social" name="source" value="social">
+                        <label for="source-social">Social Media / GitHub</label><br>
+                        
+                        <input type="radio" id="source-friend" name="source" value="friend">
+                        <label for="source-friend">Friend or Colleague</label>
+                    </p>
+                    
+                    <p>
+                        <label for="message">Your Message *:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences &amp; Feedback</legend>
+                    
+                    <p>
+                        <label for="contact-date">Preferred Response Date:</label><br>
+                        <input type="date" id="contact-date" name="contact_date">
+                    </p>
+
+                    <p>
+                        <label for="fav-color">Choose a Theme/Color Preference:</label><br>
+                        <input type="color" id="fav-color" name="fav_color" value="#008080">
+                    </p>
+
+                    <p>
+                        <label for="rating">Rate My Website (1-10):</label><br>
+                        <input type="range" id="rating" name="rating" min="1" max="10" value="8">
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="reply-needed" name="reply_needed" value="yes" checked>
+                        <label for="reply-needed">I would like a response to my message.</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Other Ways to Connect</h2>
+            <p>You can also reach out or check my work via:</p>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/reyaz-1" target="_blank" rel="noopener">github.com/reyaz-1</a></li>
+            </ul>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Mohammed Jemal | <a href="index.html">Return to Home</a></p>
+    </footer>
+</body>
+</html>
